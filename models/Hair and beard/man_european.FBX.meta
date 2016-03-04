@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: f74f629034ca40e47a51aa1937456d4a
+timeCreated: 1457001529
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle_L
+    100002: ankle_R
+    100004: CentrOfMass
+    100006: clav_L
+    100008: clav_R
+    100010: european
+    100012: eye_L
+    100014: eye_R
+    100016: finger_index1_L
+    100018: finger_index1_R
+    100020: finger_index2_L
+    100022: finger_index2_R
+    100024: finger_index3_L
+    100026: finger_index3_R
+    100028: finger_index_nub_L
+    100030: finger_index_nub_R
+    100032: finger_middle1_L
+    100034: finger_middle1_R
+    100036: finger_middle2_L
+    100038: finger_middle2_R
+    100040: finger_middle3_L
+    100042: finger_middle3_R
+    100044: finger_middle_nub_L
+    100046: finger_middle_nub_R
+    100048: finger_pinky1_L
+    100050: finger_pinky1_R
+    100052: finger_pinky2_L
+    100054: finger_pinky2_R
+    100056: finger_pinky3_L
+    100058: finger_pinky3_R
+    100060: finger_pinky_nub_L
+    100062: finger_pinky_nub_R
+    100064: finger_ring1_L
+    100066: finger_ring1_R
+    100068: finger_ring2_L
+    100070: finger_ring2_R
+    100072: finger_ring3_L
+    100074: finger_ring3_R
+    100076: finger_ring_nub_L
+    100078: finger_ring_nub_R
+    100080: finger_thumb1_L
+    100082: finger_thumb1_R
+    100084: finger_thumb2_L
+    100086: finger_thumb2_R
+    100088: finger_thumb3_L
+    100090: finger_thumb3_R
+    100092: finger_thumb_nub_L
+    100094: finger_thumb_nub_R
+    100096: forearm_L
+    100098: forearm_R
+    100100: hand_nub_L
+    100102: hand_nub_L 1
+    100104: hand_nub_R
+    100106: hand_R
+    100108: head
+    100110: head_nub
+    100112: knee_L
+    100114: knee_R
+    100116: //RootNode
+    100118: neck
+    100120: Ojo
+    100122: Pelvis
+    100124: pelvis_nub
+    100126: shoulder_L
+    100128: shoulder_R
+    100130: spine1
+    100132: spine2
+    100134: spine3
+    100136: thigh_L
+    100138: thigh_R
+    100140: toe_L
+    100142: toe_nub_L
+    100144: toe_nub_R
+    100146: toe_R
+    100148: wrist_L
+    100150: wrist_R
+    400000: ankle_L
+    400002: ankle_R
+    400004: CentrOfMass
+    400006: clav_L
+    400008: clav_R
+    400010: european
+    400012: eye_L
+    400014: eye_R
+    400016: finger_index1_L
+    400018: finger_index1_R
+    400020: finger_index2_L
+    400022: finger_index2_R
+    400024: finger_index3_L
+    400026: finger_index3_R
+    400028: finger_index_nub_L
+    400030: finger_index_nub_R
+    400032: finger_middle1_L
+    400034: finger_middle1_R
+    400036: finger_middle2_L
+    400038: finger_middle2_R
+    400040: finger_middle3_L
+    400042: finger_middle3_R
+    400044: finger_middle_nub_L
+    400046: finger_middle_nub_R
+    400048: finger_pinky1_L
+    400050: finger_pinky1_R
+    400052: finger_pinky2_L
+    400054: finger_pinky2_R
+    400056: finger_pinky3_L
+    400058: finger_pinky3_R
+    400060: finger_pinky_nub_L
+    400062: finger_pinky_nub_R
+    400064: finger_ring1_L
+    400066: finger_ring1_R
+    400068: finger_ring2_L
+    400070: finger_ring2_R
+    400072: finger_ring3_L
+    400074: finger_ring3_R
+    400076: finger_ring_nub_L
+    400078: finger_ring_nub_R
+    400080: finger_thumb1_L
+    400082: finger_thumb1_R
+    400084: finger_thumb2_L
+    400086: finger_thumb2_R
+    400088: finger_thumb3_L
+    400090: finger_thumb3_R
+    400092: finger_thumb_nub_L
+    400094: finger_thumb_nub_R
+    400096: forearm_L
+    400098: forearm_R
+    400100: hand_nub_L
+    400102: hand_nub_L 1
+    400104: hand_nub_R
+    400106: hand_R
+    400108: head
+    400110: head_nub
+    400112: knee_L
+    400114: knee_R
+    400116: //RootNode
+    400118: neck
+    400120: Ojo
+    400122: Pelvis
+    400124: pelvis_nub
+    400126: shoulder_L
+    400128: shoulder_R
+    400130: spine1
+    400132: spine2
+    400134: spine3
+    400136: thigh_L
+    400138: thigh_R
+    400140: toe_L
+    400142: toe_nub_L
+    400144: toe_nub_R
+    400146: toe_R
+    400148: wrist_L
+    400150: wrist_R
+    4300000: european
+    4300002: Ojo
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: european
+    13700002: Ojo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: f74f629034ca40e47a51aa1937456d4a,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
