@@ -12,17 +12,6 @@ public class LoginController : MonoBehaviour {
 	public InputField authorizedLogin;
 	public InputField authorizedPassword;
 
-    void Awake()
-    {
-        if (login != null)
-        {
-            login.text = "LOG IN";
-        } 
-        if(password != null)
-        {
-            password.text = "PASSWORD";
-        }
-    }
 
     public void Submit()
     {
