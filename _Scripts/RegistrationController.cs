@@ -11,7 +11,8 @@ public class RegistrationController : MonoBehaviour {
     public InputField password;
 	public InputField confirmPassword;
     public InputField Email;
-    public InputField confirmEmail;
+    public Toggle terms;
+    public Button submit;
 
     public GameObject FieldPrefab;
 
@@ -19,7 +20,7 @@ public class RegistrationController : MonoBehaviour {
     void errorMassage(string where, string wich)
     {
         GameObject go = GameObject.Find(where);
-        GameObject errorField = Instantiate(FieldPrefab, new Vector3(go.transform.position.x-160, go.transform.position.y + 30, go.transform.position.z) , Quaternion.identity) as GameObject;
+        GameObject errorField = Instantiate(FieldPrefab, new Vector3(go.transform.position.x-130, go.transform.position.y + 25, go.transform.position.z) , Quaternion.identity) as GameObject;
         errorField.transform.SetParent(go.transform);
         errorField.GetComponent<InputField>().text = wich;
 
@@ -65,31 +66,41 @@ public class RegistrationController : MonoBehaviour {
 
 
 
-    bool validateLogin(string Login)
+    //bool validateLogin(string Login)
+    //{
+    //    if (Regex.IsMatch(Login, @"^[A-Za-z0-9]{3-20}$"))
+    //    {
+    //        return true;
+    //    }
+
+    //    errorMassage("Invite Code", "Wrong Login");
+    //    return  false;
+    //}
+
+        public  void toggleTersmOfUse()
     {
-        if (Regex.IsMatch(Login, @"^[A-Za-z0-9]{3-20}$"))
+        if (terms.isOn == true)
         {
-            return true;
+            submit.interactable = true;
+        } else
+        {
+            submit.interactable = false;
         }
 
-        errorMassage("Login", "Wrong Login");
-        return  false;
     }
-
-
 
 
     bool chekInfo()
     {
         bool check = true;
 
-        if (!validateLogin(login.text))
-        {
-            check = false;
-        }
+        //if (!validateLogin(login.text))
+        //{
+        //    check = false;
+        //}
 
 
-        if (!validateEmaile(Email.text) || !isFieldsEqual(Email.text, confirmEmail.text))
+        if (!validateEmaile(Email.text))
         {
             check = false;
         }
