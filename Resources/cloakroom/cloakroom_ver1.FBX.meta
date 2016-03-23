@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 5152087ff76b14b45a319940bb450f2c
+timeCreated: 1458670629
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bench
+    100002: Bone001
+    100004: Bone002
+    100006: ceiling
+    100008: cloakroom
+    100010: //RootNode
+    100012: company_logo
+    100014: door
+    100016: floor
+    100018: lamps
+    100020: locker
+    100022: locker_empty1
+    100024: locker_empty2
+    100026: locker_empty3
+    100028: locker_empty4
+    100030: switchers
+    100032: towel_and_slippers
+    400000: bench
+    400002: Bone001
+    400004: Bone002
+    400006: ceiling
+    400008: cloakroom
+    400010: //RootNode
+    400012: company_logo
+    400014: door
+    400016: floor
+    400018: lamps
+    400020: locker
+    400022: locker_empty1
+    400024: locker_empty2
+    400026: locker_empty3
+    400028: locker_empty4
+    400030: switchers
+    400032: towel_and_slippers
+    2300000: bench
+    2300002: ceiling
+    2300004: cloakroom
+    2300006: company_logo
+    2300008: door
+    2300010: floor
+    2300012: lamps
+    2300014: locker_empty1
+    2300016: locker_empty2
+    2300018: locker_empty3
+    2300020: locker_empty4
+    2300022: switchers
+    3300000: bench
+    3300002: ceiling
+    3300004: cloakroom
+    3300006: company_logo
+    3300008: door
+    3300010: floor
+    3300012: lamps
+    3300014: locker_empty1
+    3300016: locker_empty2
+    3300018: locker_empty3
+    3300020: locker_empty4
+    3300022: switchers
+    4300000: cloakroom
+    4300002: locker
+    4300004: bench
+    4300006: lamps
+    4300008: locker_empty4
+    4300010: floor
+    4300012: ceiling
+    4300014: company_logo
+    4300016: switchers
+    4300018: door
+    4300020: locker_empty1
+    4300022: locker_empty2
+    4300024: locker_empty3
+    4300026: towel_and_slippers
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: locker
+    13700002: towel_and_slippers
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
