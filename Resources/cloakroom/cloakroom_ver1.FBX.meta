@@ -77,7 +77,8 @@ ModelImporter:
     4300022: locker_empty2
     4300024: locker_empty3
     4300026: towel_and_slippers
-    7400000: Take 001
+    7400000: LockerDoorOpen
+    7400002: LockerDoorclose
     9500000: //RootNode
     13700000: locker
     13700002: towel_and_slippers
@@ -101,7 +102,131 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: LockerDoorOpen
+      takeName: Take 001
+      firstFrame: 72
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bench
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: ceiling
+        weight: 1
+      - path: cloakroom
+        weight: 1
+      - path: company_logo
+        weight: 1
+      - path: door
+        weight: 1
+      - path: floor
+        weight: 1
+      - path: lamps
+        weight: 1
+      - path: locker
+        weight: 1
+      - path: locker_empty1
+        weight: 1
+      - path: locker_empty2
+        weight: 1
+      - path: locker_empty3
+        weight: 1
+      - path: locker_empty4
+        weight: 1
+      - path: switchers
+        weight: 1
+      - path: towel_and_slippers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 72
+    - serializedVersion: 16
+      name: LockerDoorclose
+      takeName: Take 001
+      firstFrame: 102
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bench
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: ceiling
+        weight: 1
+      - path: cloakroom
+        weight: 1
+      - path: company_logo
+        weight: 1
+      - path: door
+        weight: 1
+      - path: floor
+        weight: 1
+      - path: lamps
+        weight: 1
+      - path: locker
+        weight: 1
+      - path: locker_empty1
+        weight: 1
+      - path: locker_empty2
+        weight: 1
+      - path: locker_empty3
+        weight: 1
+      - path: locker_empty4
+        weight: 1
+      - path: switchers
+        weight: 1
+      - path: towel_and_slippers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 72
     isReadable: 1
   meshes:
     lODScreenPercentages: []
